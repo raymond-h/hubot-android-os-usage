@@ -1,11 +1,16 @@
 {
   "name": "hubot-android-os-usage",
   "description": "Check Android usage share (and check which one to target)",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "lib/index.js",
   "author": "Raymond Hammarling",
-  "tags": ["hubot", "hubot-scripts", "android", "usage"],
+  "tags": [
+    "hubot",
+    "hubot-scripts",
+    "android",
+    "usage"
+  ],
   "scripts": {
     "lint": "eslint src/ test/",
     "test": "mocha --compilers js:babel-register,es6:babel-register,es6.js:babel-register test/",
