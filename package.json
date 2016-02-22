@@ -27,6 +27,7 @@
     "onchange": "^2.0.0"
   },
   "dependencies": {
+    "babel-polyfill": "^6.5.0",
     "got": "^6.1.1"
   }
 }
